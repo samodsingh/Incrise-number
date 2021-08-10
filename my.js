@@ -6,6 +6,7 @@ document.getElementById("text").style.font = " bold 100px arial,serif";
 
 
 document.write("<br>")
+var n;
 
 
 var s =prompt();
@@ -13,10 +14,12 @@ function add(n){
 
   n++;
   return n;
-}
+}  
+   document.getElementById("answer").value;
+  
+  s =add()
 
-s= add(s);
+
 document.write(s)
 
 
-// document.getElementById("text").style.objectPosition = "0 10%";
