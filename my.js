@@ -15,11 +15,12 @@ function add(n){
   n++;
   return n;
 }  
-   document.getElementById("answer").value;
-  
-  s =add()
+    var answer=document.getElementById("answer").innerHTML=add(s);
+    document.getElementById("answer").style.font = " bold 100px arial,serif";
+    document.getElementById("answer").style.color = "red";
+    // s=add(s);
 
+document.write(answer);
 
-document.write(s)
 
 
