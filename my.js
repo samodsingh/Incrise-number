@@ -10,7 +10,7 @@ document.write("<br>")
 
 var s =prompt();
 function add(n){
-  var aswer=document.getElementById("answer").innerHTML=n;
+  
   document.getElementById("answer").style.font = " bold 100px arial,serif";
   document.getElementById("answer").style.color = "blue";
   document.getElementById("answer").style.textAlign = "center";
@@ -18,8 +18,8 @@ function add(n){
   n++;
   return n;
 }  
-   add(s);
-
+   
+document.getElementById("answer").innerHTML=add(s);
 
 
 
